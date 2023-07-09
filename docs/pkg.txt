@@ -1,0 +1,27 @@
+https://www.youtube.com/watch?v=KNHEXOoV-H4
+
+go mod init github.com/nawafmohd/xpkg
+main.go
+
+package myxpkg
+
+import "log"
+
+func LogInfo(msg string) {
+    log.Printf("INFO - %v", msg)
+}
+
+func LogWarning(msg string) {
+    log.Printf("WARN - %v", msg)
+}
+
+func LogError(msg string) {
+    log.Printf("ERROR - %v", msg)
+}
+
+// create new https://github.com/nawafmohd/xpkg
+// https://github.com/nawafmohd/xpkg.git
+
+git init
+git remote add origin https://github.com/nawafmohd/xpkg.git
+git add .

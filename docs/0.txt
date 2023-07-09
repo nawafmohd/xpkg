@@ -1,0 +1,19 @@
+
+go mod init localhost/go
+
+go mod tidy
+
+import (
+	"localhost/go/app"
+)
+
+func main() {
+	fmt.Print(app.App())
+}
+
+
+// How to Create Library and Import it Locally in Go (Golang)
+// https://www.youtube.com/watch?v=bKBoLphAe1Y&list=PLSZtkT-RBExxne5X-yksk9tJkqxla6Flc&index=7
+
+import "github.com/gin-gonic/gin"
+go mod tidy
