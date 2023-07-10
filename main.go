@@ -1,4 +1,4 @@
-package xpkg
+package main
 
 import "log"
 
